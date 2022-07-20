@@ -111,6 +111,9 @@ i {
     background-color: crimson;
 }
 
+
+/* Design for upcoming match */
+
 .image-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -118,34 +121,37 @@ i {
     row-gap: 15px;
     column-gap: 15px;
     padding-bottom: 2%;
-
 }
 
-
-.image-details {
-    height: 370px;
+.flag-container {
     border-radius: 11px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.images {
-    width: 245px;
-    height: 175px;
+.flag-image-details {
+    display: flex;
+
 }
 
-
-.details {
-    padding: 20px;
+.flag-images {
+    width: 110px;
+    height: 56.18px;
 }
 
-.btn {
-    height: 32px;
-    width: 90px;
-    font-family: 'Bree Serif', serif;
+h3 {
+    margin: 10px;
 }
 
-.btn:hover {
-    background-color: crimson;
+.vs {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.schedule {
+    text-align: center;
 }
 
 /* Style for footer  */
