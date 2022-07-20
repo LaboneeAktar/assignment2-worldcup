@@ -16,9 +16,20 @@ main {
     width: 1100px;
     border-radius: 30px;
     margin-bottom: 5%;
+    animation: sliding 7s ease-in-out .5s infinite alternate;
 }
 
 /* Top section style  */
+@keyframes sliding {
+    0% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: dimgray;
+    }
+}
+
 .top-title {
     font-family: 'Lobster', cursive;
     font-size: 45px;
@@ -37,8 +48,9 @@ main {
     color: whitesmoke;
     padding: 80px;
     margin-top: 0px;
-    /* padding-bottom: 100px; */
 }
+
+
 
 .watch-live {
     text-decoration: none;
@@ -48,6 +60,10 @@ main {
     border-radius: 10px;
     font-weight: 500;
     font-size: 20px;
+}
+
+.watch-live:hover {
+    color: black;
 }
 
 i {
@@ -64,8 +80,6 @@ i {
 
 .blog-container {
     display: flex;
-    /* flex-grow: initial; */
-    /* justify-content: space-between; */
     width: 1100px;
 }
 
@@ -105,6 +119,7 @@ i {
     margin-left: 20px;
     row-gap: 15px;
     column-gap: 15px;
+    padding-bottom: 2%;
 
 }
 
@@ -122,4 +137,43 @@ i {
 
 .details {
     padding: 20px;
+}
+
+.btn {
+    height: 32px;
+    width: 90px;
+    font-family: 'Bree Serif', serif;
+
+}
+
+footer {
+    margin-top: 90px;
+    text-align: center;
+    background-color: #161616;
+    color: white;
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+
+/* Style for footer  */
+.footer {
+    font-family: 'Lobster', cursive;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    margin: 3%;
+}
+
+.links a:hover {
+    color: aqua;
 }
