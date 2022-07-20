@@ -14,18 +14,22 @@ main {
     justify-content: center;
 }
 
-h1 {
-    font-family: 'Lobster', cursive;
-}
-
 .container {
     display: flex;
-    background-color: navy;
-    width: 1000px;
-    padding: 30px;
+    background-color: #161616;
+    width: 1100px;
     border-radius: 30px;
+}
 
+/* Top section style  */
+.top-title {
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    margin: 0;
+}
 
+span {
+    color: crimson;
 }
 
 .half-width {
@@ -34,4 +38,27 @@ h1 {
 
 .top-banner {
     color: whitesmoke;
+    padding: 80px;
+    margin-top: 0px;
+    /* padding-bottom: 100px; */
+}
+
+.watch-live {
+    text-decoration: none;
+    background-image: linear-gradient(#eb3349, #f45c43);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+i {
+    margin-left: 10px;
+}
+
+.banner-image {
+    padding: 33px;
+    padding-bottom: 0px;
+    height: 425px;
 }
