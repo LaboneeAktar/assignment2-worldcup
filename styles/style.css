@@ -50,7 +50,8 @@ main {
     margin-top: 0px;
 }
 
-.watch-live {
+.watch-live,
+.view-all {
     text-decoration: none;
     background-image: linear-gradient(#eb3349, #f45c43);
     color: white;
