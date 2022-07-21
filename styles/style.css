@@ -201,6 +201,17 @@ hr {
         width: 100%;
     }
 
+    .image-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .image-details {
+        height: 350px;
+
+        text-align: center;
+    }
 
 }
 
